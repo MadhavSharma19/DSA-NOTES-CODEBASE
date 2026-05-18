@@ -1,0 +1,376 @@
+```txt id="dsaflow10"
+========================================================
+          DATA STRUCTURES & ALGORITHMS COURSE
+========================================================
+
+COURSE OVERVIEW
+|
+|--> Arrays & Complexity Analysis
+|
+|--> Linked Lists
+|
+|--> Binary Search Trees
+|
+|--> Heap Data Structure
+|
+|--> Sets & Hashing
+|
+|--> Queues & Deques
+|
+|--> AVL Trees
+|
+|--> Sorting Algorithms
+|
+|--> Searching Algorithms
+|
+|--> Algorithm Design Techniques
+
+
+========================================================
+               COMPLETE COURSE FLOW
+========================================================
+
+Data Structures & Algorithms
+|
+|--> Module 1 : Arrays & Performance Analysis
+|      |
+|      |--> Introduction to Arrays
+|      |      |--> Contiguous Memory
+|      |      |--> Static Arrays
+|      |      |--> Dynamic Arrays
+|      |
+|      |--> Array Operations
+|      |      |--> Insertion
+|      |      |--> Deletion
+|      |      |--> Searching
+|      |      |--> Traversal
+|      |
+|      |--> Multi-Dimensional Arrays
+|      |      |--> 2D Arrays
+|      |      |--> Matrix Operations
+|      |
+|      |--> Performance Analysis
+|      |      |--> Time Complexity
+|      |      |--> Space Complexity
+|      |
+|      |--> Big O Notation
+|      |      |--> O(1)
+|      |      |--> O(log n)
+|      |      |--> O(n)
+|      |      |--> O(n log n)
+|      |      |--> O(n²)
+|      |
+|      |--> Big Omega Notation
+|      |
+|      |--> Big Theta Notation
+|      |
+|      |--> Complexity Comparison Table
+|
+|--> Module 2 : Linked Lists
+|      |
+|      |--> Singly Linked List
+|      |      |--> Insertion
+|      |      |      |--> Beginning
+|      |      |      |--> End
+|      |      |      |--> Position
+|      |      |
+|      |      |--> Searching
+|      |      |
+|      |      |--> Deletion
+|      |      |      |--> Beginning
+|      |      |      |--> End
+|      |      |      |--> By Value
+|      |      |
+|      |      |--> Traversal
+|      |      |--> Reverse Traversal
+|      |
+|      |--> Doubly Linked List
+|      |      |--> Insertion
+|      |      |--> Deletion
+|      |      |--> Reverse Traversal
+|      |
+|      |--> Singly vs Doubly Comparison
+|
+|--> Module 3 : Binary Search Tree (BST)
+|      |
+|      |--> Introduction to BST
+|      |      |--> Properties
+|      |      |--> Advantages
+|      |
+|      |--> BST Operations
+|      |      |--> Insertion
+|      |      |--> Searching
+|      |      |--> Deletion
+|      |             |--> Leaf Node
+|      |             |--> One Child
+|      |             |--> Two Children
+|      |
+|      |--> Parent Node Finding
+|      |
+|      |--> Min & Max Values
+|      |
+|      |--> Tree Traversals
+|             |--> Preorder
+|             |--> Postorder
+|             |--> Inorder
+|             |--> Breadth First Search
+|
+|--> Module 4 : Heap
+|      |
+|      |--> Introduction to Heap
+|      |      |--> Max Heap
+|      |      |--> Min Heap
+|      |      |--> Array Representation
+|      |
+|      |--> Heap Operations
+|      |      |--> Insertion
+|      |      |      |--> Heapify Up
+|      |      |
+|      |      |--> Deletion
+|      |      |      |--> Heapify Down
+|      |      |
+|      |      |--> Searching
+|      |      |--> Traversal
+|      |
+|      |--> Heap Sort
+|
+|--> Module 5 : Sets
+|      |
+|      |--> Introduction to Sets
+|      |      |--> Unique Elements
+|      |
+|      |--> Unordered Set
+|      |      |--> Hash Based
+|      |      |--> O(1) Operations
+|      |      |--> Duplicate Checking
+|      |
+|      |--> Ordered Set
+|      |      |--> BST Based
+|      |      |--> O(log n)
+|      |
+|      |--> Set Operations
+|             |--> Union
+|             |--> Intersection
+|             |--> Difference
+|
+|--> Module 6 : Queues
+|      |
+|      |--> Introduction to Queue
+|      |      |--> FIFO Principle
+|      |
+|      |--> Standard Queue
+|      |      |--> Array Based
+|      |      |--> Linked List Based
+|      |
+|      |--> Priority Queue
+|      |      |--> Heap Based
+|      |
+|      |--> Double Ended Queue
+|      |
+|      |--> Circular Queue
+|
+|--> Module 7 : AVL Tree
+|      |
+|      |--> Introduction to AVL Tree
+|      |      |--> Self Balancing BST
+|      |      |--> Balance Factor
+|      |
+|      |--> Tree Rotations
+|      |      |--> Left Rotation
+|      |      |--> Right Rotation
+|      |      |--> Left Right Rotation
+|      |      |--> Right Left Rotation
+|      |
+|      |--> Tree Rebalancing
+|      |
+|      |--> Insertion with Rebalancing
+|      |
+|      |--> Deletion with Rebalancing
+|
+|--> Module 8 : Sorting Algorithms
+|      |
+|      |--> Introduction to Sorting
+|      |      |--> Stable Sorting
+|      |      |--> Unstable Sorting
+|      |      |--> In-Place Sorting
+|      |
+|      |--> Bubble Sort
+|      |
+|      |--> Merge Sort
+|      |      |--> Divide & Conquer
+|      |
+|      |--> Quick Sort
+|      |      |--> Pivot
+|      |      |--> Partition
+|      |
+|      |--> Insertion Sort
+|      |
+|      |--> Shell Sort
+|      |      |--> Gap Sequences
+|      |
+|      |--> Radix Sort
+|      |      |--> Non Comparative
+|      |      |--> Digit By Digit
+|      |
+|      |--> Sorting Comparison Table
+|
+|--> Module 9 : Searching Algorithms
+|      |
+|      |--> Linear Search
+|      |      |--> O(n)
+|      |
+|      |--> Binary Search
+|      |      |--> Iterative
+|      |      |--> Recursive
+|      |      |--> O(log n)
+|      |
+|      |--> Hashing
+|      |      |--> Hash Functions
+|      |      |--> Collision Handling
+|      |
+|      |--> Hash Tables
+|
+|--> Module 10 : Algorithm Design Techniques
+       |
+       |--> Recursion
+       |      |--> Base Case
+       |      |--> Recursive Case
+       |      |--> Call Stack
+       |
+       |--> Divide & Conquer
+       |
+       |--> Greedy Algorithms
+       |
+       |--> Dynamic Programming
+              |--> Memoization
+              |--> Tabulation
+
+
+========================================================
+                ARRAY FLOW DIAGRAM
+========================================================
+
+Arrays
+|
+|--> Static Arrays
+|
+|--> Dynamic Arrays
+|
+|--> Traversal
+|
+|--> Insertion
+|
+|--> Deletion
+|
+|--> Searching
+|
+|--> Multi-Dimensional Arrays
+|
+|--> Matrix Operations
+|
+|--> Time Complexity
+
+
+========================================================
+             LINKED LIST FLOW DIAGRAM
+========================================================
+
+Linked Lists
+|
+|--> Singly Linked List
+|      |--> Insert
+|      |--> Delete
+|      |--> Search
+|      |--> Traverse
+|
+|--> Doubly Linked List
+|      |--> Insert
+|      |--> Delete
+|      |--> Reverse Traversal
+|
+|--> Circular Linked List
+
+
+========================================================
+                TREE FLOW DIAGRAM
+========================================================
+
+Trees
+|
+|--> Binary Search Tree
+|      |--> Insert
+|      |--> Delete
+|      |--> Search
+|      |--> Traversals
+|
+|--> AVL Tree
+|      |--> Rotations
+|      |--> Rebalancing
+|
+|--> Heap
+       |--> Max Heap
+       |--> Min Heap
+       |--> Heap Sort
+
+
+========================================================
+               SORTING FLOW DIAGRAM
+========================================================
+
+Sorting Algorithms
+|
+|--> Bubble Sort
+|
+|--> Merge Sort
+|
+|--> Quick Sort
+|
+|--> Insertion Sort
+|
+|--> Shell Sort
+|
+|--> Radix Sort
+|
+|--> Stable vs Unstable
+|
+|--> In-Place Sorting
+
+
+========================================================
+             ALGORITHM DESIGN FLOW
+========================================================
+
+Algorithm Design
+|
+|--> Recursion
+|
+|--> Divide & Conquer
+|
+|--> Greedy Algorithms
+|
+|--> Dynamic Programming
+|      |--> Memoization
+|      |--> Tabulation
+|
+|--> Optimization Techniques
+
+
+========================================================
+                 COURSE OUTCOME
+========================================================
+
+After completing this course students will be able to:
+
+1. Understand core Data Structures concepts.
+2. Analyze algorithms using Big O notation.
+3. Implement arrays, linked lists, stacks, queues, and trees.
+4. Work with BSTs, AVL Trees, and Heaps.
+5. Apply sorting and searching algorithms efficiently.
+6. Understand hashing and set operations.
+7. Design optimized algorithms using recursion and DP.
+8. Solve coding interview and competitive programming problems.
+9. Build strong problem-solving skills.
+10. Prepare for technical interviews and placements.
+
+========================================================
+```

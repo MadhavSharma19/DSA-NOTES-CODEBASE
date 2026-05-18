@@ -1,0 +1,244 @@
+```txt id="xwq7pl"
+DSA with Python Crash Course
+Beginner Friendly + Practical + Project Based
+Duration : 10 Days
+
+|
+|--> DAY 1 : Introduction to DSA + Python Basics
+|      |
+|      |--> What is Data?
+|      |--> What is DSA?
+|      |--> What is an Algorithm?
+|      |--> Why Companies Ask DSA?
+|      |--> Time Complexity Basics
+|      |
+|      |--> Python Basics
+|      |      |--> Variables
+|      |      |--> Input / Output
+|      |      |--> Conditional Statements
+|      |      |--> Loops
+|      |      |--> Functions
+|      |
+|      |--> Practicals
+|      |      |--> Even Odd Checker
+|      |      |--> Calculator
+|      |      |--> Multiplication Table
+|      |      |--> Number Guessing Game
+|      |
+|      |--> Real Life Understanding
+|             |--> Algorithm = Recipe
+|
+|--> DAY 2 : Arrays & Strings
+|      |
+|      |--> Arrays using Python Lists
+|      |      |--> Indexing
+|      |      |--> Traversing
+|      |      |--> Insertion
+|      |      |--> Deletion
+|      |      |--> Searching
+|      |
+|      |--> Strings
+|      |      |--> String Basics
+|      |      |--> String Traversal
+|      |      |--> String Operations
+|      |
+|      |--> Practicals
+|      |      |--> Find Largest Number
+|      |      |--> Reverse Array
+|      |      |--> Palindrome Checker
+|      |      |--> Count Vowels
+|      |
+|      |--> Mini Project
+|             |--> Shopping Cart System
+|
+|--> DAY 3 : Searching Algorithms
+|      |
+|      |--> Linear Search
+|      |--> Binary Search
+|      |--> Jump Search
+|      |
+|      |--> Visual Understanding
+|      |      |--> Binary Search Visualization
+|      |      |--> Jump Search Rabbit Animation
+|      |
+|      |--> Practicals
+|      |      |--> Search Student Roll Number
+|      |      |--> Search Number in Array
+|      |
+|      |--> Mini Project
+|             |--> Student Record Search System
+|
+|--> DAY 4 : Sorting Algorithms
+|      |
+|      |--> Bubble Sort
+|      |--> Selection Sort
+|      |--> Insertion Sort
+|      |--> Merge Sort
+|      |--> Quick Sort
+|      |--> Heap Sort
+|      |
+|      |--> Sorting Concepts
+|      |      |--> Swapping
+|      |      |--> Comparisons
+|      |      |--> Divide and Conquer
+|      |
+|      |--> Practicals
+|      |      |--> Sort Student Marks
+|      |      |--> Sorting Visualizer
+|      |
+|      |--> Mini Project
+|             |--> Leaderboard Ranking System
+|
+|--> DAY 5 : Stack & Queue
+|      |
+|      |--> Stack
+|      |      |--> Push
+|      |      |--> Pop
+|      |      |--> Peek
+|      |
+|      |--> Queue
+|      |      |--> Enqueue
+|      |      |--> Dequeue
+|      |
+|      |--> Real Life Examples
+|      |      |--> Browser History = Stack
+|      |      |--> Ticket Counter = Queue
+|      |
+|      |--> Practicals
+|      |      |--> Undo Feature
+|      |      |--> Music Playlist Queue
+|      |
+|      |--> Mini Project
+|             |--> Music Player Queue System
+|
+|--> DAY 6 : Linked List
+|      |
+|      |--> Singly Linked List
+|      |--> Doubly Linked List
+|      |--> Circular Linked List
+|      |
+|      |--> Operations
+|      |      |--> Insert Node
+|      |      |--> Delete Node
+|      |      |--> Traverse List
+|      |
+|      |--> Practicals
+|      |      |--> Linked List Visualization
+|      |      |--> Contact Traversal
+|      |
+|      |--> Mini Project
+|             |--> Contact Management System
+|
+|--> DAY 7 : Trees & Binary Search Tree
+|      |
+|      |--> Tree Basics
+|      |--> Binary Tree
+|      |--> Binary Search Tree
+|      |
+|      |--> BST Operations
+|      |      |--> Insertion
+|      |      |--> Searching
+|      |      |--> Deletion
+|      |
+|      |--> Tree Traversals
+|      |      |--> Inorder
+|      |      |--> Preorder
+|      |      |--> Postorder
+|      |
+|      |--> Practicals
+|      |      |--> BST Creation
+|      |      |--> Heap Visualization
+|      |
+|      |--> Mini Project
+|             |--> Student Database using BST
+|
+|--> DAY 8 : Recursion & Backtracking
+|      |
+|      |--> Recursion Basics
+|      |--> Base Condition
+|      |--> Recursive Functions
+|      |--> Backtracking Introduction
+|      |
+|      |--> Practicals
+|      |      |--> Factorial Program
+|      |      |--> Fibonacci Series
+|      |      |--> Maze Solver
+|      |
+|      |--> Mini Project
+|             |--> Sudoku Solver
+|
+|--> DAY 9 : Graphs & Hashing
+|      |
+|      |--> Graph Basics
+|      |--> BFS Traversal
+|      |--> DFS Traversal
+|      |
+|      |--> Hashing
+|      |      |--> Hash Tables
+|      |      |--> Dictionaries
+|      |
+|      |--> Practicals
+|      |      |--> Social Media Friend Graph
+|      |      |--> BFS Visualization
+|      |
+|      |--> Mini Project
+|             |--> Mini Social Network
+|
+|--> DAY 10 : Final DSA Projects + Interview Problems
+|      |
+|      |--> Interview Problems
+|      |      |--> Two Sum
+|      |      |--> Palindrome Problems
+|      |      |--> Frequency Counter
+|      |      |--> Sliding Window Basics
+|      |
+|      |--> Final Projects
+|      |      |--> ATM System
+|      |      |--> Student Management System
+|      |      |--> Library Management System
+|      |      |--> Banking System
+|      |      |--> DSA Visualizer
+|      |
+|      |--> Extra Topics
+|      |      |--> LeetCode Introduction
+|      |      |--> GitHub Uploading
+|      |      |--> Resume Projects
+|      |
+|      |--> Final Outcome
+|             |--> Solve Beginner DSA Problems
+|             |--> Understand Core Data Structures
+|             |--> Build Mini Projects
+|             |--> Start LeetCode
+|             |--> Understand Interview Basics
+|
+|--> Daily Teaching Structure
+|      |
+|      |--> 30 Minutes
+|      |      |--> Concept Explanation
+|      |
+|      |--> 45 Minutes
+|      |      |--> Coding Practical
+|      |
+|      |--> 30 Minutes
+|      |      |--> Mini Project Building
+|      |
+|      |--> 15 Minutes
+|             |--> Doubt Solving
+|
+|--> Teaching Strategy
+       |
+       |--> Explain with Real-Life Examples
+       |      |--> Stack = Plate Stack
+       |      |--> Queue = Ticket Line
+       |      |--> Tree = Family Tree
+       |
+       |--> Use Visualizations
+       |      |--> Turtle
+       |      |--> Tkinter
+       |      |--> Streamlit
+       |
+       |--> Focus on Logic Building
+              |--> Problem Solving
+              |--> Thinking Approach
+              |--> Interview Mindset
+```
