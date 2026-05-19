@@ -1,0 +1,552 @@
+========================================================
+        DAY 4 : SORTING ALGORITHMS (1 HR SESSION)
+                 DSA WITH PYTHON
+========================================================
+
+SESSION DURATION : 1 HOUR
+
+GOAL:
+Students should understand:
+✔ What is sorting
+✔ Why sorting is important
+✔ Basic sorting mechanisms
+✔ How major sorting algorithms work
+✔ Real-life applications of sorting
+
+========================================================
+🕒 SESSION FLOW
+========================================================
+
+00:00 - 05:00  → Introduction to Sorting
+05:00 - 12:00  → Sorting Concepts
+12:00 - 20:00  → Bubble Sort
+20:00 - 28:00  → Selection Sort
+28:00 - 36:00  → Insertion Sort
+36:00 - 44:00  → Merge Sort
+44:00 - 50:00  → Quick Sort
+50:00 - 55:00  → Heap Sort Intro
+55:00 - 60:00  → Mini Project + Practice
+
+========================================================
+🔹 INTRODUCTION TO SORTING
+========================================================
+
+WHAT IS SORTING?
+
+Sorting means arranging data in:
+✔ Ascending Order
+✔ Descending Order
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLES
+
+Marks Ranking:
+10, 50, 90, 20
+
+After Sorting:
+10, 20, 50, 90
+
+--------------------------------------------------------
+
+Phone Contacts:
+A → Z
+
+--------------------------------------------------------
+
+E-commerce:
+Low Price → High Price
+
+========================================================
+🔹 SORTING CONCEPTS
+========================================================
+
+########################################################
+1. SWAPPING
+########################################################
+
+Swapping means exchanging values.
+
+--------------------------------------------------------
+
+EXAMPLE:
+
+Before Swap:
+a = 10
+b = 20
+
+After Swap:
+a = 20
+b = 10
+
+--------------------------------------------------------
+
+💻 CODE
+
+a = 10
+b = 20
+
+print("Before Swap")
+print(a, b)
+
+temp = a
+a = b
+b = temp
+
+print("After Swap")
+print(a, b)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+STEP 1:
+temp = 10
+
+STEP 2:
+a = 20
+
+STEP 3:
+b = 10
+
+========================================================
+2. COMPARISONS
+========================================================
+
+Sorting algorithms compare elements.
+
+Example:
+5 > 2 ?
+
+YES → Swap
+
+--------------------------------------------------------
+
+💻 CODE
+
+a = 5
+b = 2
+
+if a > b:
+    print("Swap Needed")
+
+========================================================
+3. DIVIDE AND CONQUER
+========================================================
+
+Large problem ko small parts me divide karna.
+
+Used in:
+✔ Merge Sort
+✔ Quick Sort
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Pizza Cutting 🍕
+
+Whole pizza → small slices
+
+========================================================
+🔹 BUBBLE SORT
+========================================================
+
+📌 IDEA
+
+Biggest element bubbles to the end.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Soap bubble moves upward.
+
+--------------------------------------------------------
+
+💻 CODE
+
+arr = [5, 2, 8, 1]
+
+n = len(arr)
+
+for i in range(n):
+
+    for j in range(n - i - 1):
+
+        if arr[j] > arr[j + 1]:
+
+            arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+print(arr)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+PASS 1:
+5 2 8 1
+
+5 > 2 → swap
+2 5 8 1
+
+8 > 1 → swap
+2 5 1 8
+
+Largest reached end.
+
+========================================================
+🔹 SELECTION SORT
+========================================================
+
+📌 IDEA
+
+Find smallest element and place correctly.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Finding shortest student in class.
+
+--------------------------------------------------------
+
+💻 CODE
+
+arr = [64, 25, 12, 22]
+
+n = len(arr)
+
+for i in range(n):
+
+    min_index = i
+
+    for j in range(i + 1, n):
+
+        if arr[j] < arr[min_index]:
+
+            min_index = j
+
+    arr[i], arr[min_index] = arr[min_index], arr[i]
+
+print(arr)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+Find smallest:
+12
+
+Swap with first position.
+
+========================================================
+🔹 INSERTION SORT
+========================================================
+
+📌 IDEA
+
+Take one element and insert correctly.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Playing cards arrangement.
+
+--------------------------------------------------------
+
+💻 CODE
+
+arr = [5, 2, 4, 1]
+
+for i in range(1, len(arr)):
+
+    key = arr[i]
+
+    j = i - 1
+
+    while j >= 0 and arr[j] > key:
+
+        arr[j + 1] = arr[j]
+
+        j -= 1
+
+    arr[j + 1] = key
+
+print(arr)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+Take:
+2
+
+Compare with:
+5
+
+Insert before 5.
+
+========================================================
+🔹 MERGE SORT
+========================================================
+
+📌 IDEA
+
+Divide array into halves and merge sorted parts.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Divide homework among friends.
+
+--------------------------------------------------------
+
+💻 SIMPLE CODE
+
+def merge_sort(arr):
+
+    if len(arr) > 1:
+
+        mid = len(arr) // 2
+
+        left = arr[:mid]
+        right = arr[mid:]
+
+        merge_sort(left)
+        merge_sort(right)
+
+        i = j = k = 0
+
+        while i < len(left) and j < len(right):
+
+            if left[i] < right[j]:
+
+                arr[k] = left[i]
+                i += 1
+
+            else:
+
+                arr[k] = right[j]
+                j += 1
+
+            k += 1
+
+        while i < len(left):
+
+            arr[k] = left[i]
+            i += 1
+            k += 1
+
+        while j < len(right):
+
+            arr[k] = right[j]
+            j += 1
+            k += 1
+
+
+arr = [5, 2, 8, 1]
+
+merge_sort(arr)
+
+print(arr)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+[5, 2, 8, 1]
+
+Divide:
+[5,2] [8,1]
+
+Again divide:
+[5] [2] [8] [1]
+
+Merge sorted.
+
+========================================================
+🔹 QUICK SORT
+========================================================
+
+📌 IDEA
+
+Pick pivot and place elements around it.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Teacher separates students:
+shorter left
+taller right
+
+--------------------------------------------------------
+
+💻 SIMPLE CODE
+
+def quick_sort(arr):
+
+    if len(arr) <= 1:
+        return arr
+
+    pivot = arr[0]
+
+    left = []
+    right = []
+
+    for x in arr[1:]:
+
+        if x < pivot:
+            left.append(x)
+
+        else:
+            right.append(x)
+
+    return quick_sort(left) + [pivot] + quick_sort(right)
+
+
+arr = [5, 2, 8, 1]
+
+print(quick_sort(arr))
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+Pivot = 5
+
+Left:
+2 1
+
+Right:
+8
+
+========================================================
+🔹 HEAP SORT
+========================================================
+
+📌 IDEA
+
+Uses heap tree structure.
+
+--------------------------------------------------------
+
+📌 REAL LIFE EXAMPLE
+
+Priority queue system.
+
+--------------------------------------------------------
+
+💻 SIMPLE CODE
+
+import heapq
+
+arr = [5, 2, 8, 1]
+
+heapq.heapify(arr)
+
+sorted_arr = []
+
+while arr:
+
+    sorted_arr.append(heapq.heappop(arr))
+
+print(sorted_arr)
+
+--------------------------------------------------------
+
+🧠 MECHANISM
+
+Smallest element always comes out first.
+
+========================================================
+🔹 PRACTICAL : SORT STUDENT MARKS
+========================================================
+
+student_marks = [56, 89, 34, 90, 67]
+
+student_marks.sort()
+
+print(student_marks)
+
+--------------------------------------------------------
+
+OUTPUT:
+
+[34, 56, 67, 89, 90]
+
+========================================================
+🔹 MINI PROJECT : LEADERBOARD RANKING SYSTEM
+========================================================
+
+📌 IDEA
+
+Sort player scores from highest to lowest.
+
+--------------------------------------------------------
+
+💻 CODE
+
+players = {
+    "Aman": 200,
+    "Rahul": 500,
+    "Priya": 350
+}
+
+sorted_players = sorted(
+    players.items(),
+    key=lambda x: x[1],
+    reverse=True
+)
+
+print("🏆 Leaderboard")
+
+rank = 1
+
+for player, score in sorted_players:
+
+    print(rank, player, score)
+
+    rank += 1
+
+--------------------------------------------------------
+
+🧠 OUTPUT
+
+🏆 Leaderboard
+1 Rahul 500
+2 Priya 350
+3 Aman 200
+
+========================================================
+🎯 FINAL REVISION
+========================================================
+
+| Algorithm       | Main Idea                  |
+--------------------------------------------------------
+| Bubble Sort     | Biggest bubbles up         |
+| Selection Sort  | Find smallest              |
+| Insertion Sort  | Insert correctly           |
+| Merge Sort      | Divide and merge           |
+| Quick Sort      | Pivot partition            |
+| Heap Sort       | Heap priority system       |
+
+========================================================
+🔥 INTERVIEW QUESTION
+========================================================
+
+Q1. Which sorting is easiest?
+👉 Bubble Sort
+
+Q2. Which sorting uses divide and conquer?
+👉 Merge Sort & Quick Sort
+
+Q3. Which sorting is used in priority systems?
+👉 Heap Sort
+
+========================================================
+                END OF SESSION
+========================================================
